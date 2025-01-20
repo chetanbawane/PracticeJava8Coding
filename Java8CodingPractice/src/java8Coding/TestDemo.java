@@ -33,7 +33,7 @@ public class TestDemo {
 		
 		//Given the list of integers, find the first element of the list using Stream functions?
 		
-		System.out.println(list.stream().findFirst());
+		//System.out.println(list.stream().findFirst());
 		
 		//Given a list of integers, find the total number of elements present in the list using Stream functions?
 		
@@ -43,11 +43,7 @@ public class TestDemo {
 		//Given a list of integers, find the maximum value element present in it using Stream functions?
 		
 		Optional<Integer> maxno= list.stream().sorted(Comparator.reverseOrder()).findFirst();		
-		System.out.println(maxno);
-		
-		
-		
-		
+		//System.out.println(maxno);
 		
 		
 		
